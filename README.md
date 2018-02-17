@@ -1,3 +1,3 @@
 # Experimenting with typed streams
 
-Build with `stack build`, run tests with `stack test`.
+Build with `stack build`, run tests with `stack exec test`.
