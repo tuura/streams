@@ -1,10 +1,10 @@
 import Tuura.Stream
 
 chars :: [Event Char]
-chars = [ Event c | c <- "abcdefghij" ]
+chars = map Event "abcdefghij"
 
 posInts :: [Event Int]
-posInts = [ Event k | k <- [1..10] ]
+posInts = map Event [1..10]
 
 negInts :: [Event Int]
 negInts = map (fmap negate) posInts
